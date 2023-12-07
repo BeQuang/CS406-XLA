@@ -9,3 +9,7 @@ GIT CLONE VỀ ĐỂ TÌM HIỂU, KHÔNG TỰ DO UPDATE NẾU KHÔNG CÓ SỰ KI
 ![image](https://github.com/leminhhoang1008/CS406-XLA/assets/95231984/e9b924b2-1cd5-4f23-89ba-c4d06afd0931)
 * FILE "app.py" RỖNG, MỌI NGƯỜI CÙNG TÌM CÁCH TẠO 1 APP BẰNG PYTHON HOẶC WEB BẰNG THƯ VIỆN STREAMLIT ĐỂ HOÀN THÀNH ĐỒ ÁN
 * MỌI THỨ CẦN CHO APP ĐÃ CÓ Ở "shell.py", CẦN GÌ CÓ THỂ LÊN CHATGPT HỎI, CỐ GẮNG HẠN CHẾ SỬA "shell.py"
+------------------------------------------------------------------------------------------------------
+# BẢN MỚI CẬP NHẬT SẼ ĐƯỢC SỬ DỤNG CHO ĐỒ ÁN
+* TÌM HIỂU KẾT NỐI DATABASE BẰNG MYSQL.CONNECTOR VÀ THỰC HIỆN ĐIỀU CHỈNH TRÊN FILE DATABASE VÀ EXTRACTOR
+* DÙNG LỆNH SAU TRÊN TERMINAL THƯ MỤC "streamlit /"đường dẫn tới streamlit-app"/" ĐỂ CHẠY THỬ WEB
