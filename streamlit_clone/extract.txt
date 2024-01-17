@@ -1,0 +1,35 @@
+#Get phone number
+        if "Phone" in data[i][1] or "PHONE" in data[i][1] or "P" in data[i][1] or "T" in data[i][1] or "TEL" in data[i][1] or "Ph" in data[i][1] or "Direct" in data[i][1] or "Cell" in data[i][1]:
+            for j in range(len(data[i][1])):
+                if j in "0123456789" or j in "+-().":
+                    phone_number+=j
+        #Get fax number
+        elif "F" in data[i][1] or "FAX" in data[i][1] or "Fax" in data[i][1]:
+            for j in range(len(data[i][1])):
+                if j in "0123456789" or j in "+-().":
+                    fax_number+=j
+        #Get email
+        elif "@" in data[i][1]:
+            email=data[i][1]
+            continue
+        #Get website
+        elif ("www." in data[i][1] and ".com" in data[i][1]):
+            website=data[i][1]
+            continue
+        else:
+            remaining.append(data[i][1])
+            
+    address = ""
+    company_name = ""
+
+    for i in remaining:
+        count = 0
+        for j in i:
+            if j in "1234567890" or j in ";:,.":
+                count += 1
+        if count > 0:
+            address = address + i + " "
+        elif "manager" in i.lower() or "director" in i.lower() or "engineer" in i.lower() or "development" in i.lower() or "president" in i.lower() or "founder" in i.lower() or "ceo" in i.lower():
+            des+=i
+        elif i :
+            company_name = company_name + i + ' '
