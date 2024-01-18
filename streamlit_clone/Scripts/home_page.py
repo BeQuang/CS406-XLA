@@ -11,7 +11,7 @@ def load_image(image_file):
 
 def app():
     st.title("Extract Data From A Business Card:card_index:")
-    st.image(load_image(r'C:\Users\Admin\Desktop\streamlit\Optical-Character-Recognition-Business-Card\Scripts\picture.jpg'))
+    st.image(load_image(r'D:\Năm 3\Xử lý ảnh và ứng dụng - CS406.O11\final\CS406-XLA\streamlit_clone\Scripts\picture.jpg'))
     st.sidebar.success("Home : Extract a business card.")
     st.header("Image Processing")
     image_file = st.file_uploader("Upload an image:arrow_heading_down:", type=["png", "jpg", "jpeg"])  # Fixed the file types here
